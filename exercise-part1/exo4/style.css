@@ -1,0 +1,11 @@
+table {
+  border: medium solid #0000FF;
+  width: 20%;
+  height: 10%;
+}
+th,td{
+  border: 2px solid black;
+}
+tfoot{
+  font-weight: bold;
+}

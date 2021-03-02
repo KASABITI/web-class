@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>exercise-part4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <fieldset class="part1">
+      <legend class="legend1">votre identité</legend>
+
+      <p>
+        <label for="name">1.Nom :</label>
+        <input type="text" placeholder="votre nom" id="name"/>
+      </p>
+      <p>
+        <label for="prenom">2.Prenom:</label>
+        <input type="text" placeholder="prenom" id="prenom"/>
+      </p>
+      <p>
+        <label for="name"> 3.Adress email:</label>
+        <input type="email" placeholder="adressemail" id="email"/>
+      </p>
+    </fieldset>
+    <fieldset class="part2">
+      <legend class="legend2">Adress de livrasion</legend>
+      <label for="address">1.Adress :</label>
+        <textarea name="adress" id="address" rows="4" cols="14"></textarea>
+      <p>
+      <label for="cp">2.Code postal:</label>
+        <input type="text" id="cp" placeholder="codepostal">
+      </p>
+      <p>
+      <label for="ville"> 3.Ville:</label>
+      <input type="text" id="ville" placeholder="ville">
+      </p>
+    </fieldset>
+    <fieldset class="part3">
+      <legend class="legend3">Information de réglement</legend>
+      <p>
+        Type de carte bancaire
+      </p>
+      <p>
+        1.<input type="radio" id="visa" name="carte" value="visa">
+        <label for="visa">Visa</label>
+      </p>
+      <p>
+        2.<input type="radio" id="amex" name="amex" value="amex">
+        <label for="amex">Amex</label>
+      </p>
+      <p>
+        3.<input type="radio" id="mastercard" name="mastercard" value="mastercard">
+        <label for="mastercard">Mastercard</label>
+      </p>
+      <p>
+        <label for="card-number">4.Numéro de carte:</label>
+        <input type="number" name="card-number" id="card-number" placeholder="numéroe de carte">
+      </p>
+      <p>
+        <label for="security-code">5.Code de sécurité:</label>
+        <input type="number" name="security-code" id="security-code" placeholder="code de securité">
+      </p>
+      <p>
+        <label for="pass-number">6.Numéro de titulaire:</label>
+        <input type="text" name="pass-number" id="pass-number" placeholder="Numéro de titulaire">
+      </p>
+    </fieldset>
+    <button>J'achète!</button>
+  </form>
+</body>
+</html>

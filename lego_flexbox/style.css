@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 650px;
+  background-color: yellow;
+  margin: auto;
+  border-radius: 15% 15%;
+  height: 100%;
+}
+.rowMouth{
+}
+.rowNoze{
+  width: 80%;
+}
+.rowEye{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.mouth{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 50vw;
+  background-color: white;
+  height: 17vh;
+  border: 4px solid black;
+  border-radius: 2vh 2vh;
+}
+.teeth{
+  /* flex-grow: */
+  flex: 1 0 11%;
+  border: 2px solid black;
+  width: 12%;
+  height: 8vh;
+  align-self: flex-end;
+}
+.noze{
+  border-radius: 5vw 5vw;
+  width: 15vw;
+  background-color: red;
+  height: 20vh;
+}
+.eyes{
+  width: 15%;
+  background-color: black;
+  height: 20vh;
+  border-radius: 50%;
+}
+.eyebrowsLeft{
+  transform: rotate(45deg);
+  width: 5%;
+  background-color: black;
+  height: 20vh;
+  border-radius: 30%;
+}
+.eyebrowsRight{
+  transform: rotate(125deg);
+  width: 5%;
+  background-color: black;
+  height: 20vh;
+  border-radius: 30%;
+}

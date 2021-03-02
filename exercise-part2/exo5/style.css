@@ -1,0 +1,23 @@
+
+
+.container{
+  padding:30px;
+}
+form {
+  background: Gray;
+  border: 0;
+  border-radius: 8px;
+  box-shadow:5px 5px 15px 5px #000000;
+  /*font: 10px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  overflow: hidden;
+  width: 256px;
+  padding: 64px;
+  font-size: 14px;
+}
+input[type="submit"]{
+  margin-top: 10px;
+  padding: 5px;
+}
+ input[type="text"],input[type="password"]{
+  padding: 10px;
+}
