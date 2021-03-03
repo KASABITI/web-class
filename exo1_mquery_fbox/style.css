@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    height: 100px;
+ }
+ .rectangle1{
+   display: flex;
+   background-color: #009900;
+   width: 100%;
+   justify-content: center;
+ }
+ .square{
+   width: 34%;
+   border: 1px solid #4c4646;
+ }
+ .rectangle2{
+   background-color: #FFFF33;
+   width: 100%;
+ }
+ /*media query 980px*/
+ @media screen and (max-width:980px) {
+
+   .container{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     width: 100%;
+     height:300px;
+   }
+   .rectangle1{
+     display: flex;
+     background-color: #009900;
+     justify-content: center;
+   }
+   .square{
+     background: #3CAD69;
+   }
+    .two{
+     border-right:5px solid #4c4646;
+     border-left:5px solid #4c4646;
+   }
+   .rectangle2{
+     background-color: #FFFF33;
+     width: 100%;
+   }
+
+
+ }
