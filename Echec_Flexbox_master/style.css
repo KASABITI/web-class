@@ -1,0 +1,16 @@
+
+.echec{
+    width: 43%;
+    height: 98px;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    }
+.piece{
+  flex-basis: 20%;
+  padding: 0px;
+  margin: 0px;
+    }
+figcaption{
+  display: none;
+}
