@@ -1,16 +1,13 @@
 
 .echec{
-    width: 43%;
-    height: 98px;
-    display:flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
-    }
-.piece{
-  flex-basis: 20%;
-  padding: 0px;
-  margin: 0px;
-    }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  height: 150px;
+  width: 50%;
+}
+
+
 figcaption{
   display: none;
 }
